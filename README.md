@@ -7,7 +7,7 @@
 
 <!-- DYNAMIC TYPEWRITER BANNER -->
 <a href="https://github.com/ChawlaBhai">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=3000&pause=1000&color=39D353&center=true&vCenter=true&width=600&lines=Sahaj+Chawla+(ChawlaBhai);2x+Bootstrapped+Founder;Built+to+%E2%82%B930L%2B+MRR+on+%E2%82%B90+Funding;AI-Native+Product+Builder;0-to-1+Execution+Machine;Aap+bas+kaam+do,+karke+dena+mera+kaam+hai." alt="typing banner">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=3000&pause=1000&color=39D353&center=true&vCenter=true&width=600&lines=Sahaj+Chawla+(ChawlaBhai);2x+Bootstrapped+Founder;Built+to+%E2%82%B930L%2B+MRR+on+%E2%82%B90+Funding;AI-Native+Product+Builder;0-to-1+Execution+Machine;God's+Favourite+Child......+I+NEVER+LOSE!" alt="typing banner">
 </a>
 
 <br>
@@ -47,6 +47,15 @@ Hi, I'm **Sahaj Chawla**. I'm a 2x bootstrapped founder and AI-native product bu
 ## `~/` toolbox
 
 <img src="https://skillicons.dev/icons?i=ts,js,python,react,nextjs,nodejs,tailwind,postgres,docker,redis,git,github,linux,figma,aws,vscode&perline=11" alt="tech stack">
+
+<br><br>
+
+<img src="https://img.shields.io/badge/Antigravity-181717?style=for-the-badge&logo=google&logoColor=white" alt="Antigravity">
+<img src="https://img.shields.io/badge/ChatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white" alt="ChatGPT">
+<img src="https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude">
+<img src="https://img.shields.io/badge/Codex-0058A0?style=for-the-badge&logo=openai&logoColor=white" alt="Codex">
+<img src="https://img.shields.io/badge/Hermes-8A2BE2?style=for-the-badge&logo=hugginface&logoColor=white" alt="Hermes">
+<img src="https://img.shields.io/badge/OpenClaw-FF4500?style=for-the-badge&logo=dependabot&logoColor=white" alt="OpenClaw">
 
 </div>
 
@@ -169,12 +178,19 @@ Hi, I'm **Sahaj Chawla**. I'm a 2x bootstrapped founder and AI-native product bu
 
 <div align="center">
 
-## `~/` contribution graph
+## `~/` contribution calendar
 
-<!-- Live Github Contributions Chart -->
-<a href="https://github.com/ChawlaBhai">
-  <img src="https://ghchart.rshah.org/39d353/ChawlaBhai" width="100%" alt="Contribution Graph">
-</a>
+<!-- 3D Isometric Calendar -->
+<img src="https://metrics.lecoq.io/ChawlaBhai?template=classic&base=&plugin_isocalendar=yes&plugin_isocalendar_duration=half-year" width="100%" alt="3D isometric contribution calendar">
+
+<br><br>
+
+<!-- Snake eats the contribution graph (Generated via GitHub Action) -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChawlaBhai/ChawlaBhai/output/assets/snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ChawlaBhai/ChawlaBhai/output/assets/snake.svg">
+  <img src="https://raw.githubusercontent.com/ChawlaBhai/ChawlaBhai/output/assets/snake.svg" width="100%" alt="Snake eating the contribution graph">
+</picture>
 
 </div>
 
@@ -182,6 +198,6 @@ Hi, I'm **Sahaj Chawla**. I'm a 2x bootstrapped founder and AI-native product bu
 
 <div align="center">
 
-<sub>`01000001 01100001 01110000 00100000 01100010 01100001 01110011 00100000 01101011 01100001 01100001 01101101 00100000 01100100 01101111 00101100 00100000 01101011 01100001 01110010 01101011 01100101 00100000 01100100 01100101 01101110 01100001 00100000 01101101 01100101 01110010 01100001 00100000 01101011 01100001 01100001 01101101 00100000 01101000 01100001 01101001 00101110`</sub>
+<sub>`01000111 01101111 01100100 00100111 01110011 00100000 01000110 01100001 01110110 01101111 01110101 01110010 01101001 01110100 01100101 00100000 01000011 01101000 01101001 01101100 01100100 00101110 00101110 00101110 00101110 00101110 00101110 00100000 01001001 00100000 01001110 01000101 01010110 01000101 01010010 00100000 01001100 01001111 01010011 01000101 00100001`</sub>
 
 </div>
