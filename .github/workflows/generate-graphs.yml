@@ -46,12 +46,12 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # 4. Commit and push the new SVGs directly to the repo
+            # 4. Commit and push the new SVGs directly to the repo
       - name: commit and push
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git pull --rebase origin main
           git add assets/
           git commit -m "chore: auto-generate contribution graphs and stats" || exit 0
+          git pull --rebase origin main
           git push
