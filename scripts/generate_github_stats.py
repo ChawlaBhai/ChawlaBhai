@@ -1,22 +1,30 @@
 #!/usr/bin/env python3
 import json
 import urllib.request
+import os
 from pathlib import Path
 
 def fetch_stats(username):
     url = f"https://api.github.com/users/{username}"
-    req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+    headers = {'User-Agent': 'Mozilla/5.0'}
+    
+    token = os.environ.get("GITHUB_TOKEN")
+    if token:
+        headers['Authorization'] = f"token {token}"
+        
+    req = urllib.request.Request(url, headers=headers)
     try:
         with urllib.request.urlopen(req) as response:
             user_data = json.loads(response.read())
         
-        # We need repos to get stars
+        # Fetch repos for stars
         repos_url = f"https://api.github.com/users/{username}/repos?per_page=100"
-        req_repos = urllib.request.Request(repos_url, headers={'User-Agent': 'Mozilla/5.0'})
+        req_repos = urllib.request.Request(repos_url, headers=headers)
         with urllib.request.urlopen(req_repos) as response:
             repos_data = json.loads(response.read())
             
-        total_stars = sum(repo['stargazers_count'] for repo in repos_data if not repo['fork'])
+        total_stars = sum(repo['stargazers_count'] for repo in repos_data if not repo.get('fork', False))
+        
         return {
             "stars": total_stars,
             "followers": user_data.get('followers', 0),
@@ -24,7 +32,7 @@ def fetch_stats(username):
         }
     except Exception as e:
         print(f"Error fetching stats: {e}")
-        return {"stars": 650, "followers": 120, "repos": 35} # Fallback
+        return {"stars": "N/A", "followers": "N/A", "repos": "N/A"}
 
 def esc(s): return str(s).replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
 
