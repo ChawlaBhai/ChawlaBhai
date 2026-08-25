@@ -14,13 +14,9 @@ def main():
     # Generate animated portrait SVGs using dotify
     img_path = "C12CE87C-B389-4CAC-9524-97EB7067D397 copy.PNG"
     
-    # 1. Base Portrait (Color)
+    # Base Portrait (Color) - removed --animate
     run_cmd([sys.executable, "scripts/dotify.py", img_path, "-o", "assets/portrait", 
-             "--cols", "110", "--equalize", "--detail", "0.6", "--color", "--animate", "--reveal"])
-    
-    # 2. Theme Portraits (Dark/Light/Cyber/Ember)
-    run_cmd([sys.executable, "scripts/dotify.py", img_path, "-o", "assets/portrait", 
-             "--cols", "110", "--equalize", "--detail", "0.6", "--animate", "--reveal"])
+             "--cols", "110", "--equalize", "--detail", "0.6", "--color", "--reveal"])
              
     # Generate Radar Charts
     run_cmd([sys.executable, "scripts/generate_radar.py"])

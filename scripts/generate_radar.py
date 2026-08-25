@@ -12,9 +12,9 @@ THEMES = {
 
 def render_radar(data, theme, title):
     c = THEMES[theme]
-    W, H = 400, 360
+    W, H = 500, 360  # Increased width from 400 to 500
     CX, CY = W / 2, H / 2 + 10
-    R = 110
+    R = 100  # Slightly reduced radius to give more padding
     
     out = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" font-family="ui-sans-serif, system-ui, sans-serif">']
     out.append(f'<rect width="{W}" height="{H}" rx="10" fill="{c["bg"]}" stroke="{c["border"]}"/>')
