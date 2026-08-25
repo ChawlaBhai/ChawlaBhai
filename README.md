@@ -54,7 +54,7 @@ Hi, I'm **Sahaj Chawla**. I'm a 2x bootstrapped founder and AI-native product bu
 <img src="https://img.shields.io/badge/ChatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white" alt="ChatGPT">
 <img src="https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude">
 <img src="https://img.shields.io/badge/Codex-0058A0?style=for-the-badge&logo=openai&logoColor=white" alt="Codex">
-<img src="https://img.shields.io/badge/Hermes-8A2BE2?style=for-the-badge&logo=hugginface&logoColor=white" alt="Hermes">
+<img src="https://img.shields.io/badge/Hermes-8A2BE2?style=for-the-badge&logo=huggingface&logoColor=white" alt="Hermes">
 <img src="https://img.shields.io/badge/OpenClaw-FF4500?style=for-the-badge&logo=dependabot&logoColor=white" alt="OpenClaw">
 
 </div>
@@ -80,9 +80,11 @@ Hi, I'm **Sahaj Chawla**. I'm a 2x bootstrapped founder and AI-native product bu
 <td width="50%" align="center" valign="middle">
 
 <!-- GitHub Stats Dashboard -->
-<a href="https://github.com/ChawlaBhai">
-  <img src="https://github-readme-stats.vercel.app/api?username=ChawlaBhai&show_icons=true&theme=dark&bg_color=0d1117&hide_border=true&title_color=58a6ff" width="480" alt="github stats card">
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/card-stats-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/card-stats-light.svg">
+  <img src="assets/card-stats-dark.svg" width="480" alt="github stats card">
+</picture>
 
 </td>
 </tr>
@@ -181,15 +183,17 @@ Hi, I'm **Sahaj Chawla**. I'm a 2x bootstrapped founder and AI-native product bu
 ## `~/` contribution calendar
 
 <!-- 3D Isometric Calendar -->
-<img src="https://metrics.lecoq.io/ChawlaBhai?template=classic&base=&plugin_isocalendar=yes&plugin_isocalendar_duration=half-year" width="100%" alt="3D isometric contribution calendar">
+<picture>
+  <img src="assets/metrics.isocalendar.svg" width="100%" alt="3D isometric contribution calendar">
+</picture>
 
 <br><br>
 
-<!-- Snake eats the contribution graph (Generated via GitHub Action) -->
+<!-- Snake eats the contribution graph -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChawlaBhai/ChawlaBhai/output/assets/snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ChawlaBhai/ChawlaBhai/output/assets/snake.svg">
-  <img src="https://raw.githubusercontent.com/ChawlaBhai/ChawlaBhai/output/assets/snake.svg" width="100%" alt="Snake eating the contribution graph">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/snake.svg">
+  <img src="assets/snake.svg" width="100%" alt="Snake eating the contribution graph">
 </picture>
 
 </div>

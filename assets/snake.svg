@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="100%" height="200">
+  <rect width="800" height="200" rx="10" fill="#0d1117" stroke="#30363d" stroke-dasharray="5,5"/>
+  <text x="400" y="100" font-family="monospace" font-size="16" fill="#8b949e" text-anchor="middle">Snake Animation Placeholder</text>
+  <text x="400" y="125" font-family="monospace" font-size="12" fill="#57606a" text-anchor="middle">Will automatically populate once GitHub Action runs.</text>
+</svg>
