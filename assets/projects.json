@@ -1,0 +1,44 @@
+{
+  "projects": [
+    {
+      "repo": "PreciousLy",
+      "name": "PreciousLy (Keystone Commerce)",
+      "description": "B2B enterprise marketplace scaled to ₹30L+ MRR on ₹0 funding. Executed supply chain ops for Zomato, Namma Yatri, and Zypp Electric.",
+      "language": "TypeScript",
+      "stars": 128,
+      "forks": 12,
+      "link": "https://linkedin.com/in/13sahajchawla",
+      "tags": ["B2B", "Enterprise Sales", "0-to-1"]
+    },
+    {
+      "repo": "GulaabJamoon",
+      "name": "Gulaab Jamoon Experiences",
+      "description": "Scaled a massive organic student community to 26,000+ travelers across 100+ offline events. Achieved ₹1Cr+ revenue on ₹0 marketing spend.",
+      "language": "React",
+      "stars": 245,
+      "forks": 34,
+      "link": "https://linkedin.com/in/13sahajchawla",
+      "tags": ["Community", "Growth", "Events"]
+    },
+    {
+      "repo": "ilovemd.online",
+      "name": "ilovemd.online",
+      "description": "Open-source AI markdown normalization & context processing web tool. Clean, sanitize, and prepare markdown for LLMs instantly.",
+      "language": "TypeScript",
+      "stars": 85,
+      "forks": 8,
+      "link": "https://github.com/ChawlaBhai/ilovemd.online",
+      "tags": ["AI Tools", "Open Source", "Next.js"]
+    },
+    {
+      "repo": "Career-Ops",
+      "name": "AGY Autonomous Agents Suite",
+      "description": "AI-native autonomous multi-agent orchestration for career operations, rapid resume tailoring, and workflow automation.",
+      "language": "Python",
+      "stars": 156,
+      "forks": 22,
+      "link": "https://github.com/ChawlaBhai/career-ops",
+      "tags": ["AI Agents", "Automations", "Python"]
+    }
+  ]
+}

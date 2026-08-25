@@ -1,0 +1,18 @@
+{
+  "founder_radar": [
+    {"axis": "0-to-1 Execution", "value": 1.0},
+    {"axis": "Enterprise B2B Sales", "value": 0.95},
+    {"axis": "AI & Automation", "value": 0.9},
+    {"axis": "P&L Ownership", "value": 0.95},
+    {"axis": "Product Strategy", "value": 0.85},
+    {"axis": "Community Growth", "value": 1.0}
+  ],
+  "tech_radar": [
+    {"axis": "Agentic AI", "value": 0.95},
+    {"axis": "Python", "value": 0.9},
+    {"axis": "TypeScript / React", "value": 0.85},
+    {"axis": "System Design", "value": 0.8},
+    {"axis": "PostgreSQL", "value": 0.75},
+    {"axis": "n8n / Workflows", "value": 1.0}
+  ]
+}
