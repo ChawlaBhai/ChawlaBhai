@@ -16,6 +16,8 @@ jobs:
     
     steps:
       - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
 
       # 1. Generate Snake Animation
       - name: generate snake
@@ -38,11 +40,18 @@ jobs:
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
 
-      # 3. Commit the new SVGs directly to the repo
+      # 3. Generate Accurate GitHub Stats Card
+      - name: generate stats card
+        run: python3 scripts/generate_github_stats.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # 4. Commit and push the new SVGs directly to the repo
       - name: commit and push
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git pull --rebase origin main
           git add assets/
-          git commit -m "chore: auto-generate contribution graphs" || exit 0
+          git commit -m "chore: auto-generate contribution graphs and stats" || exit 0
           git push
