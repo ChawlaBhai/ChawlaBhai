@@ -14,29 +14,6 @@ LANG_COLORS = {
     "TypeScript": "#3178c6", "React": "#61dafb", "Python": "#3572A5", "JavaScript": "#f1e05a"
 }
 
-def render_founder_card(theme):
-    c = THEMES[theme]
-    W, H = 480, 200
-    out = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" font-family="ui-sans-serif, system-ui, sans-serif">']
-    out.append(f'<rect width="{W-1}" height="{H-1}" x="0.5" y="0.5" rx="10" fill="{c["bg"]}" stroke="{c["border"]}"/>')
-    
-    out.append(f'<text x="25" y="35" font-size="16" font-weight="700" fill="{c["title"]}">0-to-1 Founder Scale Metrics</text>')
-    out.append(f'<line x1="25" y1="50" x2="{W-25}" y2="50" stroke="{c["border"]}" stroke-width="1"/>')
-    
-    metrics = [
-        {"val": "₹30L+ MRR", "lbl": "Peak Bootstrapped Run Rate", "x": 25, "y": 90},
-        {"val": "26,000+", "lbl": "Active Community Built", "x": 240, "y": 90},
-        {"val": "100+", "lbl": "Live Offline Events Executed", "x": 25, "y": 150},
-        {"val": "₹0", "lbl": "Paid Ad Spend", "x": 240, "y": 150},
-    ]
-    
-    for m in metrics:
-        out.append(f'<text x="{m["x"]}" y="{m["y"]}" font-size="22" font-weight="800" fill="{c["text"]}">{m["val"]}</text>')
-        out.append(f'<text x="{m["x"]}" y="{m["y"]+18}" font-size="11" font-weight="500" fill="{c["muted"]}">{m["lbl"]}</text>')
-        
-    out.append('</svg>')
-    return "".join(out)
-
 def render_project_card(proj, theme):
     c = THEMES[theme]
     W, H = 420, 150
@@ -76,9 +53,7 @@ def render_project_card(proj, theme):
 def main():
     Path("assets").mkdir(exist_ok=True)
     
-    # Founder cards
-    for t in ("dark", "light"):
-        Path(f"assets/card-founder-{t}.svg").write_text(render_founder_card(t))
+    # Founder metrics card removed: its numbers were unverified.
         
     # Project cards
     with open("assets/projects.json") as f:

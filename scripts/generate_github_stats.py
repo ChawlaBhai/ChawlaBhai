@@ -53,7 +53,7 @@ def render_stats_card(stats, theme):
         ("Total Stars Earned", stats["stars"]),
         ("Followers", stats["followers"]),
         ("Public Repositories", stats["repos"]),
-        ("Commits (1y)", "Top 5%")
+        ("Member since", "2020")
     ]
     
     for i, (label, val) in enumerate(metrics):
